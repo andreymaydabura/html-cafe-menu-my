@@ -12,3 +12,19 @@ h1, h2, p {
     margin-left: auto;
     margin-right: auto;
 }
+
+.flavor {
+    width: auto;      /* можно убрать фиксированные проценты */
+    display: block;   /* возвращаем блочный тип */
+}
+
+.price  {
+    width: auto;      /* можно убрать фиксированные проценты */
+    display: block;   /* возвращаем блочный тип */
+}
+
+.item {
+    display: flex;                  /* располагает элементы в строку */
+    justify-content: space-between; /* раздвигает их по краям — один влево, другой вправо */
+    align-items: center;            /* выравнивает по вертикали */
+}
